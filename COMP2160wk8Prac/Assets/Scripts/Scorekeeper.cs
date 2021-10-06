@@ -8,6 +8,14 @@ public class Scorekeeper : MonoBehaviour
 
     private int currentScore = 0;
 
+    public int CurrentScore
+    {
+        get
+        {
+            return currentScore;
+        }
+    }
+
     static private Scorekeeper instance;
 
     static public Scorekeeper Instance
