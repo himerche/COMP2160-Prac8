@@ -45,6 +45,8 @@ public class Scorekeeper : MonoBehaviour
         {
             instance = this;
         }
+
+        currentScore = 0;
     }
 
     public void PickupCoin()

@@ -420,6 +420,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3285187868882234010, guid: b833f3c6e541f6440b3b809bb0064bd4, type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 1697477932}
     - target: {fileID: 388122665236237809, guid: b833f3c6e541f6440b3b809bb0064bd4, type: 3}
       propertyPath: m_Name
       value: UIManager
@@ -624,3 +628,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50d4fa3469cb78a49980b38ec08d342e, type: 3}
+--- !u!114 &1697477932 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1243317889209345279, guid: 50d4fa3469cb78a49980b38ec08d342e, type: 3}
+  m_PrefabInstance: {fileID: 1293940024}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

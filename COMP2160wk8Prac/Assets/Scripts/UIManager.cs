@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    private Text scoreText;
+    public Text scoreText;
 
     static private UIManager instance;
 
@@ -31,11 +31,6 @@ public class UIManager : MonoBehaviour
         {
             instance = this;
         }
-    }
-
-    void Start()
-    {
-        scoreText = transform.Find("/Score").GetComponent<Text>();
     }
 
     void Update()
