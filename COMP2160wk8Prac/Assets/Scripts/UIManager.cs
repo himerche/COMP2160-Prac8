@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public Transform canvas;
-
     private Text scoreText;
 
     static private UIManager instance;
@@ -37,7 +35,7 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
-        canvas.transform.Find("Score");
+        scoreText = transform.Find("/Score").GetComponent<Text>();
     }
 
     void Update()
