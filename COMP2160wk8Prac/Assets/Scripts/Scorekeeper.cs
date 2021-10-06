@@ -10,6 +10,11 @@ public class Scorekeeper : MonoBehaviour
 
     static private Scorekeeper instance;
 
+    // Update is called once per frame
+    void Update()
+    {
+        Debug.Log(currentScore);
+    }
     static public Scorekeeper Instance
     {
         get
