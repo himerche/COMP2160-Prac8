@@ -34,7 +34,7 @@ public class Scorekeeper : MonoBehaviour
         }
     }
 
-    public void AddPointsToScore()
+    public void PickupCoin()
     {
         currentScore += pointsPerPickup;
     }
